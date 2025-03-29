@@ -1,0 +1,67 @@
+.link{
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+}
+li{
+  display: block;
+  font-size: 1.25em;
+}
+a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+ul{list-style: none;}
+a:visited{color: white;}
+
+
+body{
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  padding: 425px 0;
+  font-size: 3em;
+  color: white;
+}
+
+p{
+  text-align: center;
+  padding: 450px 0;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+}
+
+.container{
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+
+.title{
+  scroll-snap-align: start;
+  height: 100vh;
+  background-image: url("img/cafe.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cake{
+  scroll-snap-align: start;
+  height: 100vh;
+  background-image: url("img/cake.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.coffee{
+  scroll-snap-align: start;
+  height: 100vh;
+  background-image: url("img/coffee.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
